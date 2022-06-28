@@ -1,0 +1,48 @@
+#container {
+    
+    display: grid;
+    background-color: DodgerBlue;
+    grid-template-columns: auto;
+    grid-template-columns: repeat(16, 1fr);
+    border-radius: 10px;
+    
+}
+
+body {
+    
+}
+
+.content{
+    background-color: #f1f1f1;
+    width: auto;
+    margin: 5px;
+    text-align: center;
+    font-size: 30px; 
+    border-radius: 10px;
+
+}
+
+#buttonContainer {
+    display: grid;
+
+    justify-content: space-around;
+}
+
+#gridSizeButton {
+    padding: 20px;
+    margin: 20px;
+
+}
+
+/* .content {
+    border: 5px;
+    border-radius: 10px;
+    border-color: blue;
+    border-style: dashed;
+} */
+
+/* .content: {
+    background-color: yellow;
+    
+
+} */
